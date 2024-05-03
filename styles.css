@@ -60,3 +60,50 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* 
+  Start
+*/
+body {
+  display: flex;
+  height: 100vh;
+}
+
+.left-side {
+  background-image: url("./img/halie-west-25xggax4bSA-unsplash.jpg");
+  flex: 1;
+  background-size: cover;
+  color: #eeeeee;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side {
+  flex: 2;
+}
+
+.title {
+  margin-top: 15vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  opacity: 1;
+  font-size: 6vw;
+  flex-shrink: 2;
+}
+
+.logo {
+  width: 6vw;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 1vh;
+  align-self: center;
+}
